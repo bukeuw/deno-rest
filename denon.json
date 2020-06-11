@@ -1,0 +1,20 @@
+{
+  "$schema": "https://deno.land/x/denon/schema.json",
+  "scripts": {
+    "start": {
+      "cmd": "deno run server.ts",
+      "allow": [
+        "net",
+        "env"
+      ],
+      "env": {
+        "PORT": "8081",
+        "DB_HOST": "localhost",
+        "DB_PORT": "5432",
+        "DB_DATABASE": "bukeuw",
+        "DB_USER": "bukeuw",
+        "DB_PASSWORD": "secret"
+      }
+    }
+  }
+}
